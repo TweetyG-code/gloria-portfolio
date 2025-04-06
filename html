@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gloria Muema | Healthcare Tech Engineer</title>
+  <style>
+    :root {
+      --primary-color: #007B8F;
+      --accent-color: #F48C06;
+      --bg-color: #f4f4f4;
+      --text-color: #333;
+      --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: var(--font-family);
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+    }
+
+    header {
+      background: var(--primary-color);
+      color: white;
+      padding: 1rem 0;
+      text-align: center;
+    }
+
+    nav {
+      background: var(--accent-color);
+      display: flex;
+      justify-content: center;
+      padding: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h1, h2 {
+      color: var(--primary-color);
+    }
+
+    a {
+      color: var(--primary-color);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .section {
+      margin-bottom: 2rem;
+    }
+
+    .contact-links a {
+      display: block;
+      margin: 0.5rem 0;
+    }
+
+    .portfolio-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+
+    .portfolio-gallery a img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .testimonial {
+      background-color: #e8f5f8;
+      border-left: 5px solid var(--primary-color);
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 5px;
+      font-style: italic;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        padding: 1rem;
+      }
+
+      h1 {
+        font-size: 1.8rem;
+      }
+
+      h2 {
+        font-size: 1.4rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Gloria Muema</h1>
+    <p>Software Engineer in Healthcare Technology</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#video">Video</a>
+    <a href="#resume">Resume</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+    <div id="about" class="section">
+      <h2>About Me</h2>
+      <p>Hello, I am Gloria Muema, a passionate Software Engineer in Healthcare Technology. I'm committed to developing innovative solutions that maximize healthcare efficiency and patient outcomes. My journey in technology has been sparked by a passion for problem-solving, a commitment to making a difference, and a desire to apply technology towards social good.</p>
+      <p>With a strong foundation in software engineering, I am dedicated to creating secure, scalable, and efficient healthcare systems. My expertise in backend development, database management, and system optimization allows me to create effective solutions for the healthcare sector.</p>
+      <p>Other than coding, I survive on teamwork and learning. My vision is to unite the tech and healthcare sectors to improve lives through digital solutions. Follow me as I venture into this interesting intersection of tech and healthcare!</p>
+    </div>
+
+    <div id="portfolio" class="section">
+      <h2>Portfolio</h2>
+      <div class="portfolio-gallery">
+        <a href="https://github.com/TweetyG-code/project1" target="_blank">
+          <img src="https://via.placeholder.com/300x200" alt="Project 1">
+        </a>
+        <a href="https://github.com/TweetyG-code/project2" target="_blank">
+          <img src="https://via.placeholder.com/300x200" alt="Project 2">
+        </a>
+        <a href="https://github.com/TweetyG-code/project3" target="_blank">
+          <img src="https://via.placeholder.com/300x200" alt="Project 3">
+        </a>
+      </div>
+    </div>
+
+    <div id="video" class="section">
+      <h2>Elevator Pitch Video</h2>
+      <iframe src="https://drive.google.com/file/d/1AG0JDcqsbl6EocrE-Tdn1Qh2Lz6d0wyS/preview" width="100%" height="315" allow="autoplay"></iframe>
+    </div>
+
+    <div class="section">
+      <h2>Skills Map</h2>
+      <a href="https://docs.google.com/spreadsheets/d/1XtsBPIE1OGgYDzNJ8n0nAC4ad0XX9irJl353SLud7Tk/edit?usp=sharing" target="_blank">View Skills Map</a>
+    </div>
+
+    <div id="resume" class="section">
+      <h2>Resume</h2>
+      <p>You can download my resume below:</p>
+      <a href="https://docs.google.com/document/d/1_t2Pn7ZrEKaGy5vkwSt_ILngCabYzGLZ/edit?usp=sharing" target="_blank">Download My Resume (Google Doc)</a>
+    </div>
+
+    <div class="section">
+      <h2>Testimonials</h2>
+      <div class="testimonial">"Gloria's dedication and creativity in backend development truly stand out!"</div>
+      <div class="testimonial">"She brings innovation and a heart for healthcare into every project."</div>
+    </div>
+
+    <div id="contact" class="section contact-links">
+      <h2>Contact Links</h2>
+      <a href="https://www.linkedin.com/in/gloria-syombu-b16950359?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
+      <a href="https://github.com/TweetyG-code" target="_blank">GitHub</a>
+      <a href="mailto:gsyombu@gmail.com">Email: gsyombu@gmail.com</a>
+    </div>
+  </div>
+</body>
+</html>
